@@ -1,8 +1,9 @@
-# docker-files
+# DOCKER-FILES
 
 Dockerfile repository.
 
 
-## table of contents
+## TABLE OF CONTENTS
 
-* Docker
+* Docker Registry
+* Django
