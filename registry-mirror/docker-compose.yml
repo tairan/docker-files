@@ -1,0 +1,8 @@
+mirror:
+  image: registry
+  ports:
+    - "5000:5000"
+  environment:
+    - REGISTRY_STANDALONE: false
+    - REGISTRY_MIRROR_SOURCE: https://registry-1.docker.io
+    - REGISTRY_MIRROR_SOURCE_INDEX: https://index.docker.io
