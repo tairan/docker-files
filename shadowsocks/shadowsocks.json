@@ -1,0 +1,10 @@
+{
+  "fast_open": false,
+  "method": "aes-256-cfb",
+  "timeout": 300,
+  "password": "Passw0rd",
+  "local_port": 8080,
+  "local_address": "127.0.0.1",
+  "server_port": 1984,
+  "server": "0.0.0.0"
+}
