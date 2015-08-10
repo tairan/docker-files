@@ -17,4 +17,4 @@ RUN chmod +x /usr/local/bin/run.sh
 
 EXPOSE $SS_SERVER_PORT
 
-ENTRYPOINT ["/usr/bin/ssserver"]
+ENTRYPOINT ["/usr/local/bin/run.sh"]
